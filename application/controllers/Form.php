@@ -14,7 +14,7 @@ class Form extends CI_Controller {
                 );
                 $this->form_validation->set_rules('passconf', 'Password Confirmation', 'required');
                 $this->form_validation->set_rules('email', 'Email', 'required');
-
+//
                 if ($this->form_validation->run() == FALSE)
                 {
                         $this->load->view('pages/myform');

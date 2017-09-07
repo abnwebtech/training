@@ -1,18 +1,22 @@
+<?php echo validation_errors(); ?>
+
+<?php echo form_open('employee'); ?>
+
 
 <form class="" action="<?php echo site_url('employees/save'); ?>" method="post">
    <table border='1'>
        <tbody>
            <tr>
                <td>First Name:</td>
-               <td><input type="text" name="first_name" value="" placeholder="first_name"></td>
+               <td><input type="text" name="first_name" value="<?php echo set_value('first_name'); ?>" placeholder="first_name"></td>
            </tr>
            <tr>
                <td>Middle Name:</td>
-               <td><input type="text" name="middle_name" value="" placeholder="middle_name"></td>
+               <td><input type="text" name="middle_name" value="<?php echo set_value('middle_name'); ?>" placeholder="middle_name"></td>
            </tr>
            <tr>
                <td>Last Name:</td>
-               <td><input type="text" name="last_name" value="" placeholder="last_name"></td>
+               <td><input type="text" name="last_name" value="<?php echo set_value('last_name'); ?>" placeholder="last_name"></td>
            </tr>
            <tr>
                <td>&nbsp;</td>
