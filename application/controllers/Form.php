@@ -21,8 +21,11 @@ class Form extends CI_Controller {
                 }
                 else
                 {
+                        // test
                         $this->load->view('forms/form-success');
                 }
+
+
         }
          public function username_check($str)
         {
