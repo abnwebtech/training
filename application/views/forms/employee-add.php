@@ -1,8 +1,5 @@
 <?php echo validation_errors(); ?>
 
-<?php echo form_open('employee'); ?>
-
-
 <form class="" action="<?php echo site_url('employees/save'); ?>" method="post">
    <table border='1'>
        <tbody>
