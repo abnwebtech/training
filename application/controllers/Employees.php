@@ -54,11 +54,12 @@ class Employees extends CI_Controller {
     */
    public function edit($employee_id)
    {
-    echo site_url();
+    //echo site_url();
        $data['employee_id'] = $employee_id;
        $data['employee'] = $this->employee_model->get_employee($employee_id);
        var_dump($this->db->last_query());
        $this->load->view('forms/employee-edit', $data);
+
    }
 
    /**
