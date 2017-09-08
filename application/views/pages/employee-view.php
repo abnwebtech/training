@@ -1,3 +1,13 @@
+<html>
+<head>
+<title>E M P L O Y E E</title>
+<link rel="stylesheet" href="<?php echo site_url("assets/bootstrap/css/bootstrap.min.css") ?>">
+<script src="<?php echo site_url("assets/jquery-3.2.1.min.js") ?>"></script>
+<script src="<?php echo site_url("assets/bootstrap/js/bootstrap.min.js") ?>"></script>
+
+
+</head>
+
 <a href="<?php echo site_url('employees/add'); ?>">ADD EMPLOYEE</a>
 <table border='1'>
     <thead>
