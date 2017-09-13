@@ -7,6 +7,12 @@
 <script src="<?php echo site_url("assets/adminlte/dist/js/adminlte.min.js"); ?>"> </script>
 <script src="<?php echo site_url("assets/adminlte/dist/js/app.min.js"); ?>"></script>
 
+<script>
+$(document).ready(function(){
+    $("tr:even").css("background-color", "yellow");
+});
+</script>
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="<?php echo site_url("assets/adminlte/bower_components/font-awesome/css/font-awesome.min.css"); ?>" />
   <!-- Ionicons -->

@@ -69,6 +69,7 @@ class Employees extends CI_Controller {
     * @return      return
     */
    public function save()
+
    {
         $post = $this->input->post();
         $this->form_validation->set_rules('first_name', 'First name', 'required');
