@@ -4,10 +4,6 @@
 <script src="<?php echo site_url("assets/jquery-3.2.1.min.js") ?>"></script>
 <script src="<?php echo site_url("assets/bootstrap/js/bootstrap.min.js") ?>"></script>
 
-
-</head>
-<?php echo validation_errors(); ?>
-
 <form class="" action="<?php echo site_url('employees/save'); ?>" method="post">
    <table border='1'>
        <tbody>
